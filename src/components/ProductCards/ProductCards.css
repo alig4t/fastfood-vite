@@ -1,0 +1,28 @@
+@keyframes giveItem {
+    0% {
+        transform: scale(110%);
+    }
+
+    50% {
+        transform: scale(115%);
+    }
+
+    100% {
+        transform: scale(130%);
+    }
+}
+
+
+.add-basket-icon {
+    font-size: 28px;
+    color: #30a95a;
+}
+
+.add-basket-icon:hover {
+    color: rgba(27, 162, 27, 0.784)
+}
+
+.add-basket-icon.active {
+    color: rgba(26, 223, 26, 0.784);
+    animation: giveItem 1.5s linear 0s;
+}
